@@ -5,8 +5,7 @@
   "background_color": "#eeeeee",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/",
-  "start_url": "/index.html?utm_source=homescreen",
+  "start_url": "https://rawgit.com/ramanathanMuthuraman/pwa-test/master/index.html?utm_source=homescreen",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",

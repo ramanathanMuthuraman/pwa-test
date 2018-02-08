@@ -27,6 +27,10 @@ self.addEventListener('install', function (event) {
   event.waitUntil(self.skipWaiting());
 });
 
+self.addEventListener('fetch', function(e){
+
+});
+
 self.addEventListener('activate', event => {
   console.log('%c ServiceWorker activate method', 'color: #CDDC39');
   event.waitUntil(self.clients.claim());
